@@ -1,0 +1,207 @@
+h1 {
+    text-align: center;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0px 40%;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #b3b3b3;
+}
+
+.profile-card {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 30px auto 50px;
+}
+
+.user-profile-image {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 40px;
+    border: 0.2px solid #cbcbcb;
+}
+
+.edit-profile-image {
+    position: absolute;
+    top: 100px;
+    right: 41px;
+    width: 40px;
+    height: 40px;
+    border: 0.2px solid #cbcbcb;
+    border-radius: 50%;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.edit-profile-image:hover {
+    filter: brightness(95%);
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.username {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.user-email {
+    font-size: 16px;
+    color: #888;
+    margin-top: 5px;
+}
+
+.user-stats p {
+    display: inline-block;
+    margin-right: 4px;
+    margin-top: 10px;
+}
+.review-delete {
+    color: black; /* 검은색 글씨 */
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc; /* 사각박스 */
+    border-radius: 5px; /* 둥근 모서리 */
+    display: inline-block;
+    background-color: #f9f9f9; /* 버튼 배경색 */
+    margin-top: 10px;
+    position: absolute; /* 위치를 절대값으로 설정 */
+    top: 150px; /* 아래쪽에서 10px */
+    right: 10px; /* 오른쪽에서 10px */
+}
+
+.comment-count {
+    color: black; /* 검은색 글씨 */
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc; /* 사각박스 */
+    border-radius: 5px; /* 둥근 모서리 */
+    display: inline-block;
+    background-color: #f9f9f9; /* 버튼 배경색 */
+    margin-top: 10px;
+    position: absolute; /* 위치를 절대값으로 설정 */
+    bottom: 10px; /* 아래쪽에서 10px */
+    right: 10px; /* 오른쪽에서 10px */
+}
+
+.post-count, .comment-count {
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.count_review {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.count_comment {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.review-content-container {
+    border-top: 1px solid #ddd;
+    border: 1px solid #c6c6c6;
+    border-radius: 10px;
+    margin: 30px auto 50px;
+    padding: 100px;
+}
+
+.review-list {
+    width: 50%;
+    margin: 0 auto;
+    padding: 100px;
+    border: 1px solid hsl(0, 0%, 26%);
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center; /* 중앙 정렬을 위한 스타일 추가 */
+}
+
+.review-details p {
+    color: #000; /* 검은색 글씨 */
+}
+
+.review-details .additional-information {
+    color: #888; /* 회색 글씨 */
+}
+
+.review-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+    margin: 10px 0;
+    text-align: center; /* 중앙 정렬을 위한 스타일 추가 */
+    position: relative; /* comment-count 위치를 위한 상대값 */
+    padding-bottom: 50px; /* comment-count 공간 확보 */
+}
+
+.review-item:last-child {
+    border-bottom: none;
+}
+
+
+.review-title {
+    color: black; /* 검은색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px; /* 제목과 별점 사이에 간격을 추가 */
+}
+
+.review-title a:hover {
+    color: black; /* 호버 시에도 검은색 유지 */
+    font-size: 1.2em; /* 호버 시 폰트 크기 증가 */
+}
+
+.review-details {
+    font-size: 14px;
+    color: #555;
+}
+
+.review-content {
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+
+.review-rating {
+    color: #FFD700;
+    font-size: 20px;
+    margin-top: 3px;
+    text-align: center; /* 중앙 정렬을 위한 스타일 추가 */
+}
+
+.no-reviews {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}

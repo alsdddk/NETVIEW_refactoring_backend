@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const urlParams = new URLSearchParams(window.location.search);
+
+            // 'key' 파라미터 값 가져오기
+            const accessToken = urlParams.get('access_token');
+            const refreshToken = urlParams.get('refresh_token');
+
+            localStorage.setItem('accessToken', accessToken);
+            localStorage.setItem('refreshToken', refreshToken);
+
+            window.location.href = '../main_page/index.html';
+            console.log();
+        });
+
+    </script>
+</body>
+
+</html>
