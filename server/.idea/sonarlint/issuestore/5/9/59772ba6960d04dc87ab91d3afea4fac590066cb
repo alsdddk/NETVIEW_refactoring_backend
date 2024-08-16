@@ -1,0 +1,11 @@
+
+X
+java:S6813$"BRemove this field injection and use constructor injection instead.(êæÄÞ
+h	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÂŸ’üÿÿÿÿ
+c
+java:S62014"NReplace this instanceof check and cast with 'instanceof OAuth2User oAuth2User'(î¸¾
+h	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÓŠýûÿÿÿÿ
+c	java:S100["NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß±¨’
+h	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÈé¼ûÿÿÿÿ
+V	java:S125}"<This block of commented-out lines of code should be removed.(žÝ÷«ýÿÿÿÿ
+R	java:S125‡"<This block of commented-out lines of code should be removed.(ÐÄþÝ

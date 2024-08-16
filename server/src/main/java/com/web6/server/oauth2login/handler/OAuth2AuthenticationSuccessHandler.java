@@ -22,7 +22,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.util.UriComponentsBuilder;
 import java.io.IOException;
-import java.util.NoSuchElementException;
 import java.util.Optional;
 
 import static com.web6.server.oauth2login.HttpCookieOAuth2AuthorizationRequestRepository.MODE_PARAM_COOKIE_NAME;
@@ -126,13 +125,6 @@ public class OAuth2AuthenticationSuccessHandler extends SimpleUrlAuthenticationS
             member.setRefreshToken(null);
             memberRepository.save(member);
         }
-
-//        return "redirect:" + logoutRedirectUrl;
-//    }
-//
-//        return UriComponentsBuilder.fromUriString(targetUrl)
-//                .queryParam("error", "Login failed")
-//                .build().toUriString();
         return UriComponentsBuilder.fromUriString(targetUrl)
                 .build().toUriString();
     }

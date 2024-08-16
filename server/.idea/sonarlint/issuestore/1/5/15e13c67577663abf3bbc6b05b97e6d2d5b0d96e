@@ -1,0 +1,8 @@
+
+–
+java:S6809."UCall transactional methods via an injected dependency instead of directly via 'this'.(üû„çüÿÿÿÿJ$eaecf627-a75f-4b33-9e37-08065fe64977
+{
+java:S1161<":Add the "@Override" annotation above this method signature(œ…¶™ýÿÿÿÿJ$e767b5d8-132a-4a53-9925-6a9ccbf03dcf
+…
+java:S2230<"DMake this method "public" or remove the "@Transactional" annotation.(œ…¶™ýÿÿÿÿJ$7cb2ca09-3f70-4889-a60a-e4f2d0711ff3
+~	java:S125w"<This block of commented-out lines of code should be removed.(¶›æÄ8äÌåÍ•2J$a9785537-aa96-498d-9aa5-8cdee9e99eed

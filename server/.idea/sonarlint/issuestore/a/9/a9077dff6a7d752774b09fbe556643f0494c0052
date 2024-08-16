@@ -1,0 +1,21 @@
+
+F
+java:S1066«"/Merge this if statement with the enclosing one.(ÈÎÅ®
+M
+java:S6863a"2Set a HttpStatus code reflective of the operation.(ÅÏ”þÿÿÿÿ
+g
+java:S3776)"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(ÿÌìQ
+n
+java:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 57 to the 15 allowed.(œúù¬ÿÿÿÿÿ
+B
+java:S1452¥"&Remove usage of generic wildcard type.(œúù¬ÿÿÿÿÿ
+F	java:S106¶"+Replace this use of System.out by a logger.(˜Š¿Ûüÿÿÿÿ
+@	java:S106Ë"+Replace this use of System.out by a logger.(¾¿™>
+i
+java:S3776•"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(ã¢èÉ
+=
+java:S1452•"&Remove usage of generic wildcard type.(ã¢èÉ
+Û
+java:S6541)"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 78 to 64, Complexity from 26 to 14, Nesting Level from 6 to 2, Number of Variables from 16 to 6.(ÿÌìQ
+â
+java:S6541¥"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 78 to 64, Complexity from 20 to 14, Nesting Level from 7 to 2, Number of Variables from 21 to 6.(œúù¬ÿÿÿÿÿ

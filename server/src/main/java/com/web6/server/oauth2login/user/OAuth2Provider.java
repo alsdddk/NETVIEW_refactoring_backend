@@ -1,4 +1,5 @@
 //OAuth2 서비스를 구분하기 위한 enum
+//우리 서비스는 카카오만 사용합니다.
 package com.web6.server.oauth2login.user;
 
 import lombok.Getter;
